@@ -1,5 +1,5 @@
-import { Button, Container } from '@mui/material';
 import React from 'react';
+import { Button } from '@mui/material';
 
 export default {
   component: Button,
@@ -26,18 +26,11 @@ export default {
 };
 
 const Template = (args) => {
-  return (
-    <Container>
-      <Button {...args}>Hello world</Button>
-    </Container>
-  );
+  return <Button {...args}>Hello world</Button>;
 };
 
-/**
- * Hello from the docs
- */
-export const SomeNameYouLike = Template.bind({});
-SomeNameYouLike.args = {
+export const MuiButton = Template.bind({});
+MuiButton.args = {
   variant: 'contained',
   color: 'primary',
 };

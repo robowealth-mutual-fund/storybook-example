@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 
-export const SimpleSnackbar = (props) => {
+const SimpleSnackbar = (props) => {
 console.log("🚀 ~ file: Snackbar.js ~ line 7 ~ SimpleSnackbar ~ props", props)
 
   // const { vertical, horizontal, open } = props;
@@ -46,3 +46,5 @@ console.log("🚀 ~ file: Snackbar.js ~ line 7 ~ SimpleSnackbar ~ props", props)
     </>
   );
 }
+
+export default SimpleSnackbar 
